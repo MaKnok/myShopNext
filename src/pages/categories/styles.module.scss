@@ -1,0 +1,24 @@
+.categoriesTitle {
+  margin-top: 2rem;
+}
+
+.categoriesList {
+  width: 60%;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.addCategoryButton {
+  padding: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .categoriesContainer {
+    width: 100%;
+    text-align: center;
+  }
+  .categoriesList {
+    width: 100%;
+    text-align: center;
+  }
+}

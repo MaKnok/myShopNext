@@ -1,0 +1,10 @@
+.navMenu:hover {
+  background-color: var(--gray-100);
+}
+
+@media (max-width: 720px) {
+  .navMenu {
+    width: 100%;
+    text-align: center;
+  }
+}

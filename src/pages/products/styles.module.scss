@@ -1,0 +1,24 @@
+.productsTitle {
+  margin-top: 2rem;
+}
+
+.productsList {
+  width: 60%;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.addProductButton {
+  padding: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .productsContainer {
+    width: 100%;
+    text-align: center;
+  }
+  .productsList {
+    width: 100%;
+    text-align: center;
+  }
+}

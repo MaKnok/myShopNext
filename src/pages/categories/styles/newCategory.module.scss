@@ -1,0 +1,25 @@
+.newCategoryForm {
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.submitForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+  .newCategoryForm {
+    width: 100%;
+  }
+
+  .submitForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .addCategorySubmitButton {
+    margin-top: 1rem;
+  }
+}
